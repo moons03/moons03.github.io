@@ -21,8 +21,7 @@ Apache, PHP, MySql 를 먼저 설치해주기
     `sudo apt install libapache2-mod-php php-mysql -y`
     
 
-여기부터 오류가 발생한다면
-
+여기부터 오류가 발생한다면</br>
 `cat /var/log/apache2/error.log`
 
 이 명령어를 통해 오류를 볼 수 있다! 
