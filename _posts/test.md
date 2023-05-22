@@ -6,12 +6,9 @@ comments: false
 ---
 
 
-[https://sourceforge.net/projects/bwapp/files/bee-box/](https://sourceforge.net/projects/bwapp/files/bee-box/)
-
-파일을 다운로드 해주고
-
-Apache, PHP, MySql 를 먼저 설치해주기
-
+[https://sourceforge.net/projects/bwapp/files/bee-box/](https://sourceforge.net/projects/bwapp/files/bee-box/)</br>
+파일을 다운로드 해주고</br>
+Apache, PHP, MySql 를 먼저 설치해주기</br>
 - 빨리 설치하기
     
     `sudo apt update && sudo apt upgrade -y`
@@ -22,18 +19,14 @@ Apache, PHP, MySql 를 먼저 설치해주기
     
 
 여기부터 오류가 발생한다면</br>
-`cat /var/log/apache2/error.log`
-
-이 명령어를 통해 오류를 볼 수 있다! 
-
+`cat /var/log/apache2/error.log`</br>
+이 명령어를 통해 오류를 볼 수 있다! </br>
 오류가 발생한다면 dm해주시면 대한 도와드릴게요!
 
-bWAPP 파일을 web server로 옮기기! 
-
+bWAPP 파일을 web server로 옮기기! </br>
 `mv bWAPP /var/www/html/`
 
-passwords, images, documents, logs 파일 권한 모두 주기
-
+passwords, images, documents, logs 파일 권한 모두 주기</br>
 ```bash
 unzip bWAPP.zip
 
@@ -45,31 +38,22 @@ chmod 777 documents/
 chmod 777 logs/
 ```
 
-admin/settings.php 에서 데이터베이스 세팅 수정해주기
-
+admin/settings.php 에서 데이터베이스 세팅 수정해주기</br>
 `$db_server = "localhost"; 	// your database server (IP/name), here 'localhost'
 $db_username = "root";		// your MySQL user, here 'root'
 $db_password = "";		// your MySQL password, here 'blank'`
 
-bWAPP에 있는 install.php 로 브라우저로 접속해서 install 버튼 누르기!
-
+bWAPP에 있는 install.php 로 브라우저로 접속해서 install 버튼 누르기!</br>
 ex) [http://localhost/bWAPP/install.php](http://localhost/bWAPP/install.php)
 
-저는 여기에서 오류가 생겨서
-
-`cat /var/log/apache2/error.log` 했는데
-
-![ERROR1](https://raw.githubusercontent.com/moons03/moons03.github.io/9518c10713408d7be93f87c158d1ce98a8eab7c7/assets/bWAPP-starting-in-linux-error1.png)
-
+저는 여기에서 오류가 생겨서</br>
+`cat /var/log/apache2/error.log` 했는데</br>
+![ERROR1](https://raw.githubusercontent.com/moons03/moons03.github.io/9518c10713408d7be93f87c158d1ce98a8eab7c7/assets/bWAPP-starting-in-linux-error1.png)</br>
 데이터 베이스 선택 오류라는 것을 확인
-  
-  
-install.php 도 확인 해봤는데 
 
-이 파일을 조금 수정하면 될 것 같아 조금 주정하고 해보니 성공
-
-아래는 수정 후 install.php 코드
-
+install.php 도 확인 해봤는데 </br>
+이 파일을 조금 수정하면 될 것 같아 조금 주정하고 해보니 성공</br>
+아래는 수정 후 install.php 코드</br>
 ```php
 <?php
 
@@ -351,11 +335,9 @@ if (isset($_REQUEST["install"]) && $_REQUEST["install"] == "yes") {
 </html>
 ```
 
-로그인 페이지로 들어가기 ( root 로 들어가도 redirect됨! )
-
+로그인 페이지로 들어가기 ( root 로 들어가도 redirect됨! )</br>
 ex) [http://localhost/bWAPP/](http://localhost/bWAPP/)
 ex) [http://localhost/bWAPP/login.php](http://localhost/bWAPP/login.php)
 
-id: bee, pw: bug 로 로그인 하거나
-
+id: bee, pw: bug 로 로그인 하거나</br>
 새로운 유저를 만들면 끝!
