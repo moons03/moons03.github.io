@@ -60,7 +60,7 @@ ex) [http://localhost/bWAPP/install.php](http://localhost/bWAPP/install.php)
 
 `cat /var/log/apache2/error.log` 했는데
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11914ab2-fcae-4c2a-9967-46d9f04b2a0c/Untitled.png)
+![ERROR1](https://github.com/moons03/moons03.github.io/blob/master/assets/bWAPP-starting-in-linux-error1.png)
 
 데이터 베이스 선택 오류라는 것을 확인
 
