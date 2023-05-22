@@ -9,6 +9,7 @@ comments: false
 [https://sourceforge.net/projects/bwapp/files/bee-box/](https://sourceforge.net/projects/bwapp/files/bee-box/)
 
 파일을 다운로드 해주고
+
 Apache, PHP, MySql 를 먼저 설치해주기
 
 - 빨리 설치하기
@@ -62,6 +63,8 @@ ex) [http://localhost/bWAPP/install.php](http://localhost/bWAPP/install.php)
 ![ERROR1](https://raw.githubusercontent.com/moons03/moons03.github.io/9518c10713408d7be93f87c158d1ce98a8eab7c7/assets/bWAPP-starting-in-linux-error1.png)
 
 데이터 베이스 선택 오류라는 것을 확인
+
+
 
 install.php 도 확인 해봤는데 
 
