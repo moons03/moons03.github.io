@@ -51,7 +51,7 @@ round-avatar: true
 social-network-links:
   email: "rainstorm9670@gmail.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: profile.php?id=100089643071793
+#  facebook: profile.php?id=100089643071793
   github: moons03
 #  twitter: daattali
 #  patreon: DeanAttali
@@ -73,7 +73,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
 
