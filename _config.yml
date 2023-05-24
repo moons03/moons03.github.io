@@ -73,7 +73,8 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+  discord: "moons#1774"
 #  kaggle: yourname
 #  hackerrank: yourname
 
