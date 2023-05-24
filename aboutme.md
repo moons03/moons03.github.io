@@ -1,15 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 혼자서 보안 좀 해볼려는 학생
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+ 저는 보안에 관심 있어하는 학생입니다. 삽질을 좋아해여
 
 ### My story
 
