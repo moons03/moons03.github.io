@@ -1,11 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: 혼자서 보안 좀 해볼려는 학생
+subtitle: I don't know about hacking
 ---
 
- 저는 보안에 관심 있어하는 학생입니다. 삽질을 좋아해여
+ 저는 단대소고에 재학중인 학생입니당
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+ 저는 보안에 관심 있어하는 학생이에요. 삽질과 소통을 좋아해요. 소통은 언제나 환영이에요..! 암튼 그래여. 같이 활동하고 싶으신 분들은 편하게 연락주세요!
+ 
