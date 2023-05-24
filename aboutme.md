@@ -4,7 +4,7 @@ title: About me
 subtitle: I don't know about hacking
 ---
 
- 저는 단대소고에 재학중인 학생입니당
+ 저는 단대소고에 재학중인 학생이에요
 
 ### My story
 
