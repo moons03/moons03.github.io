@@ -21,10 +21,10 @@ author: Park Yoon
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #  - Learn markdown: "https://www.markdowntutorial.com/"
-  #Author's home: "https://deanattali.com"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -50,12 +50,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "rainstorm9670@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: profile.php?id=100089643071793
   github: moons03
 #  twitter: daattali
 #  patreon: DeanAttali
-#  youtube: c/daattali
+  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -73,7 +73,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
 
@@ -89,12 +89,12 @@ rss-description: This website is a virtual proof that I'm awesome
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: false
+  linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://moons03.github.io/"
+url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -291,4 +291,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
