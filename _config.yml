@@ -263,6 +263,7 @@ kramdown:
 defaults:
   -
     scope:
+    a
       path: ""
       type: "posts"
     values:
