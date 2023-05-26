@@ -268,9 +268,8 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
-      sitemap: 
-        changefreq: "daily"
-        priority: 0.5
+      sitemap:
+        changefreq: daily
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
